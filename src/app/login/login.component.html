@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập</title>
+	<!-- Nạp các tệp CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+</head>
+<body>
+    <header>
+
+    </header>
+       <br>
+       <br>
+       <br>
+	<div class="container h-100">
+		<div class="row align-items-center h-100">
+			<div class="col-md-6 col-lg-4 mx-auto">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title text-center mb-3">Đăng nhập</h3>
+						<form>
+							<div class="form-group">
+								<label for="username">Tên đăng nhập</label>
+								<input type="text" class="form-control" id="username" placeholder="Nhập tên đăng nhập">
+							</div>
+							<div class="form-group">
+								<label for="password">Mật khẩu</label>
+								<input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="remember">
+								<label class="form-check-label" for="remember">Ghi nhớ tôi</label>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+							<hr>
+							<p class="text-center">Bạn chưa có tài khoản? <a routerLink="/register">Đăng ký ngay</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Nạp các tệp JavaScript của Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script></body>
+</html>
+<router-outlet></router-outlet>
